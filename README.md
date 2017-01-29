@@ -10,10 +10,14 @@ An automated haar classifier wrapper that takes the guess work out of creating a
 ## Libraries
 - To train a haar classifier you need opencv and to modify images before training you need imagemagick and graphicsmagick
 
-```brew tap homebrew/science``` \n
-```brew install --with-tbb opencv``` \n
-```brew install imagemagick``` \n
-```brew install graphicsmagick``` \n
+```brew tap homebrew/science```
+
+```brew install --with-tbb opencv```
+
+```brew install imagemagick```
+
+```brew install graphicsmagick```
+
 
 
 ## Install
