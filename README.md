@@ -15,6 +15,7 @@ An automated haar classifier wrapper that takes the guess work out of creating a
 ```brew install imagemagick```
 ```brew install graphicsmagick```
 
+
 ## Install
 - run each command and wait for completion. Some tasks may need additional time due the time it takes to process the images.
 
@@ -22,7 +23,9 @@ An automated haar classifier wrapper that takes the guess work out of creating a
 - install all the libraries
 
 ```gulp prepare```
-- create needed directories, download and process negative images
+- create needed directories, download and process negative images (downloads ~9400 images from http://www.vision.caltech.edu/Image_Datasets/)
+
+- ADD POSITIVE IMAGES: here you will add you positive images (at least 40)
 
 ```gulp process_images```
 - process positive images so they are all the same size
