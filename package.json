@@ -1,0 +1,26 @@
+{
+  "name": "auto-haar",
+  "version": "1.0.0",
+  "description": "An easier eay to automate haar classification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brad Risse",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-download-stream": "0.0.13",
+    "gulp-flatten": "^0.3.1",
+    "gulp-gunzip": "0.0.3",
+    "gulp-image-resize": "^0.11.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.7.1",
+    "gulp-untar": "0.0.5",
+    "gulp-unzip": "^0.2.0",
+    "request": "^2.79.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
